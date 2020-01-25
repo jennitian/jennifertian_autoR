@@ -6,6 +6,9 @@ This is a decent R^2 value as it is getting close to R=1, but the model is not a
 Vehicle weight, spoiler angle, and AWD are not significantly correlated with mpg.
 
 Suspension Coil Test Statistics
+The means and medians of all three lots are very similar suggesting a lack of large outliers in each data set.
+The standard deviations in lot one and two are pretty small suggesting more consistency in the manufacturing processes of these two lots.
+The standard deviation for lot three is higher suggesting that there may be issues in this lot.
 Based on statisticial testing across the three lots of manufacturers, there is not significant variation across the first and second lots.
 However, there seems to be a problem with Lot3 as the variance between values is 170. Considering that over 100 pounds/inch variance would be problematic, this suggest inconsistencies in the manufacturing process.
 Therefore, the manufacturing process does not meet standards for this design specification in Lot3.
