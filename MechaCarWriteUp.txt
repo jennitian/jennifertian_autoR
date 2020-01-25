@@ -1,0 +1,29 @@
+Multiple Linear Regression Models
+According to our multiple linear regression test, mpg is positively correlated with vehicle length and ground clearance with a p value of 5.35e-11.
+This value indicates significance, therefore the slope cannot be zero because this would suggest no correlation between the values.
+The multiple R^2 value is .71 meaning that the model can be used to accurately predict approximately 71% of the samples tested.
+This is a decent R^2 value as it is getting close to R=1, but the model is not a perfect predictor. 
+Vehicle weight, spoiler angle, and AWD are not significantly correlated with mpg.
+
+Suspension Coil Test Statistics
+Based on statisticial testing across the three lots of manufacturers, there is not significant variation across the first and second lots.
+However, there seems to be a problem with Lot3 as the variance between values is 170. Considering that over 100 pounds/inch variance would be problematic, this suggest inconsistencies in the manufacturing process.
+Therefore, the manufacturing process does not meet standards for this design specification in Lot3.
+
+Suspension T-Test
+Based on a one sample t-test comparing the lot means of the PSI of the population mean of cars tested, the p value is 1 which means the difference in these means is not statistically significant.
+We can say that two means are statistically similar.
+
+Study Design
+At the end of the day, I believe that consumers want a car that is efficient and can perform, so the first factor I would consider is mpg or horsepower.
+We know that vehicle length and ground clearance of the prototypes are significantly correlated with mpg. If we use mpg as a metric for performance we can create tests to compare the performance of mecha cars with other vehicles on the market.
+If we had these same metrics (vehicle/ground clearance) for other types of cars we could perform the same kind linear regression analysis to see whether significantly positive correlations exist with other car manufacturers.
+It would be also be interesting to see whether these factors influence horse power.
+The question is whether the vehicle length and height are good indicators of performance.
+The null hypothesis in this case still being that there is no significant correlation between length/ground clearance and mpg or horsepower.
+In addition, can use a two-sample t test to compare the mpg of Mecha cars with another popular car on the market of similar length and ground clearance or to maximize efficiency we can use an ANOVA test if we had these metrics from multiple other car manufacturers.
+In this case, the null hypothesis would be that there are not significant differences between the mpgs of these different cars on the market and Mecha cars.
+Other elements we can look at for other cars on the market are color, cost, features, and seats. We creat linear regression of these factors against sales of other cars on the market.
+Like that, if any positive correlations exist between any of these elements and their popularity on the market we can use that information to make decisions about how Mecha cars will be designed and priced on the market.
+The null hypothesis is that these factors do not have any impact on sales.
+For these tests, I would want to collect data on all of the mentioned variables.
